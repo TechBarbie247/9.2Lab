@@ -4,18 +4,13 @@ export interface TextInputProps {
   initialValue?: string;
 }
 
-export interface TextStats {
-  characterCount: number;
-  wordCount: number;
-  readingTime: number; 
-}
-
 export interface StatsDisplayProps {
   characterCount: number;
   wordCount: number;
-  readingTime: number;
-  showReadingTime: boolean;
+  readingTime: number; // in minutes
+  showReadingTime?: boolean;
 }
+
 export interface CharacterCounterProps {
   minWords?: number;
   maxWords?: number;

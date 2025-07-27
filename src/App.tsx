@@ -1,17 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CharacterCounter from './components/CharacterCounter/CharacterCounter';
-import TextInput from './components/TextInput/TextInput';
-import StatsDisplay from './components/StatsDisplay/StatsDisplay';
 
 export default function App() {
-
-
   return (
-     <>
+    <div className="min-h-screen bg-pink-100 p-4">
       <CharacterCounter />
-      <StatsDisplay stats={status} />
-      <TextInput />
-    </>
+    </div>
   );
 }
+
 

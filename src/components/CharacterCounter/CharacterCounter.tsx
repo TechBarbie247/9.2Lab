@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import StatsDisplay from '../StatsDisplay/StatsDisplay';
 import TextInput from '../TextInput/TextInput';
+import StatsDisplay from '../StatsDisplay/StatsDisplay';
 
 export default function CharacterCounter() {
   const [text, setText] = useState('');
